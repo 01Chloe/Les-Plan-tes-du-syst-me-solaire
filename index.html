@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Description des planetes du systemes solaire">
+
+     <title> Les Planètes du Systeme Solaire </title>
+
+     <!-- Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+     <!-- police d'ecriture -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+     <div class="background">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+     </div>
+
+<header>
+     <h1> Les Planètes </h1>
+          
+     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+          <div class="container-fluid">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                         <li class="nav-item">
+                              <button class="nav-link" data-index="0" aria-current="page">Mercure</button>
+                         </li>
+                         <li class="nav-item">
+                              <button class="nav-link" data-index="1">Vénus</button>
+                         </li>
+                         <li class="nav-item">
+                              <button class="nav-link" data-index="2">Terre</button>
+                         </li>
+                         <li class="nav-item">
+                              <button class="nav-link" data-index="3">Mars</button>
+                         </li>
+                         <li class="nav-item">
+                              <button class="nav-link" data-index="4">Jupiter</button>
+                         </li>
+                         <li class="nav-item">
+                              <button class="nav-link" data-index="5">Saturne</button>
+                         </li>
+                         <li class="nav-item">
+                              <button class="nav-link" data-index="6">Uranus</button>
+                         </li>
+                         <li class="nav-item">
+                              <button class="nav-link" data-index="7">Neptune</button>
+                         </li>
+                    </ul>
+               </div>
+          </div>
+     </nav>     
+</header>
+
+<div class="trait"></div>
+
+<!-- Mercure -->
+<div class="planete mercure active" data-index="0">
+     <div class="img">
+          <img src="mercure.png" alt="mercure">
+     </div>
+
+     <div class="text">
+          <h2> Mercure </h2>
+               
+          <p>  
+               Mercure est la planète la plus proche du Soleil et la moins massive du Système solaire. <br>
+               Mercure est une planète tellurique. Elle est près de trois fois plus petite et presque vingt fois moins massive que la Terre mais presque aussi dense qu'elle. Sa densité remarquable est due à l'importance de son noyau métallique, qui représenterait 85 % de son rayon. <br>
+               Comme Vénus, Mercure est quasiment sphérique en raison de sa rotation très lente. Dépourvue de véritable atmosphère pouvant la protéger des météorites, sa surface est très fortement cratérisée et globalement similaire à la face cachée de la Lune, indiquant qu'elle est géologiquement inactive depuis des milliards d'années. Cette absence d'atmosphère combinée à la proximité du Soleil engendre des températures en surface allant de -183 °C au fond des cratères polaires jusqu'à 427 °C au point subsolaire au périhélie. La planète est par ailleurs dépourvue de satellites naturels.
+               <br><br>
+               Source :
+               <a href="https://fr.wikipedia.org/wiki/Mercure_(plan%C3%A8te)" target="_blank"> wikipedia</a>
+          </p>
+               
+          <div class="boite rotation"> 
+               <p>Période de rotation : <br> 
+                    Environ 59 jours 
+               </p>
+          </div>
+               
+          <div class="boite temperature">
+               <p> Tempèrature de Surface : <br>
+                    Moyenne de 167°C 
+               </p>
+          </div>
+               
+          <div class="boite vitesse">
+               <p>Vitesse de rotation : <br>
+                    11km/h
+               </p>
+          </div>
+     </div>
+</div>  
+
+<!-- Venus  -->
+<div class="planete venus" data-index="1">
+     <div class="img">
+          <img src="venus.png" alt="venus">
+     </div>
+        
+     <div class="text">
+          <h2> Venus </h2>
+              
+          <p>
+               Vénus est la deuxième planète du Système solaire par ordre d'éloignement au Soleil, et la sixième plus grosse aussi bien par la que   le diamètre. <br> 
+               Comme Uranus, elle possède une rotation rétrograde et tourne dans le sens opposé à celui des autres planètes : le soleil s'y lève à l'ouest et se couche à l'est.Elle ne possède pas de satellite naturel. Vénus est l'une des quatre planètes telluriques du Système solaire. Elle est parfois appelée la « planète sœur » de la Terre en raison des similitudes relatives de leurs diamètres, masses, proximités au Soleil et compositions. Par d'autres aspects, elle est radicalement différente de la Terre : son champ magnétique est bien plus faible et elle possède une atmosphère beaucoup plus dense, composée de dioxyde de carbone à plus de 96 %. 
+               <br><br>
+               Source :
+               <a href="https://fr.wikipedia.org/wiki/V%C3%A9nus_(plan%C3%A8te)" target="_blank"> wikipedia</a>
+          </p>
+               
+          <div class="boite rotation"> 
+               <p>Période de rotation : <br> 
+                    Environ 240 jours
+               </p>
+          </div>
+               
+          <div class="boite temperature">
+               <p> Tempèrature de Surface : <br>
+                    Moyenne de 464°C
+               </p>
+          </div>
+               
+          <div class="boite vitesse">
+               <p>Vitesse de rotation : <br>
+                    7km/h
+               </p>
+          </div>
+     </div>
+</div>
+
+<!-- Terre  -->
+<div class="planete terre" data-index="2">
+     <div class="img">
+          <img src="terre.png" alt="terre">
+     </div>
+
+     <div class="text">
+          <h2> Terre </h2>
+               
+          <p> 
+               La Terre est la troisième planète par ordre d'éloignement au Soleil et la cinquième plus grande du Système solaire aussi bien par la masse que le diamètre. <br>
+               Elle possède un unique satellite naturel, la Lune, qui s'est formée peu après. <br>
+               La Terre est la planète la plus dense du Système solaire ainsi que la plus grande et massive des quatre planètes telluriques.<br>
+               Environ 71 % de la surface de la planète est couverte d'eau (notamment des océans, mais aussi des lacs et rivières) et les 29 % restants sont des continents et des îles.<br>
+               La structure interne de la Terre est géologiquement active, le noyau interne solide et le noyau externe liquide (composés tous deux essentiellement de fer) permettant notamment de générer le champ magnétique terrestre par effet dynamo et la convection du manteau terrestre (composé de roches silicatées) étant la cause de la tectonique des plaques.
+               <br><br>
+               Source :
+               <a href="https://fr.wikipedia.org/wiki/Terre" target="_blank"> wikipedia</a>
+          </p>
+               
+          <div class="boite rotation"> 
+               <p>Période de rotation : <br> 
+                    Environ 365 jours
+               </p>
+          </div>
+               
+          <div class="boite temperature">
+               <p> Tempèrature de Surface : <br>
+                    Moyenne de 15°C
+               </p>
+          </div>
+             
+          <div class="boite vitesse">
+               <p>Vitesse de rotation : <br>
+                    1 674 km/h
+               </p>
+          </div>
+     </div>
+</div>
+          
+<!-- Mars  -->
+<div class="planete mars" data-index="3">
+     <div class="img">
+          <img src="mars.png" alt="mars">
+     </div>
+
+     <div class="text">
+          <h2> Mars </h2>
+              
+          <p>
+               Mars est la quatrième planète du Système solaire par ordre croissant de la distance au Soleil et la deuxième par ordre croissant de la taille et de la masse. <br>
+               C’est une planète tellurique, environ dix fois moins massive que la Terre mais dix fois plus massive que la Lune. Sa topographie présente des analogies aussi bien avec la Lune, à travers ses cratères et ses bassins d'impact, qu'avec la Terre, avec des formations d'origine tectonique et climatique telles que des volcans, des vallées, et des champs de dunes. Le plus haut volcan du Système solaire, Olympus Mons, et le plus grand canyon, Valles Marineris, se trouvent sur Mars.<br>
+               La période de rotation de Mars est du même ordre que celle de la Terre. Ces saisons sont marquées par une excentricité orbitale cinq fois et demie plus élevée que celle de la Terre, d'où une asymétrie saisonnière sensiblement plus prononcée entre les deux hémisphères.
+               <br><br>
+               Source :
+               <a href="https://fr.wikipedia.org/wiki/Mars_(plan%C3%A8te)" target="_blank"> wikipedia</a>
+          </p>
+             
+          <div class="boite rotation"> 
+               <p>Période de rotation : <br> 
+                    Environ 1 jours
+               </p>
+          </div>
+               
+          <div class="boite temperature">
+               <p> Tempèrature de Surface : <br>
+                    Moyenne de -63°C
+               </p>
+          </div>
+               
+          <div class="boite vitesse">
+               <p>Vitesse de rotation : <br>
+                    868 km/h
+               </p>
+          </div>
+     </div>
+</div>
+
+<!-- Jupiter  -->
+<div class="planete jupiter" data-index="4">
+     <div class="img">
+          <img src="jupiter.png" alt="jupiter">
+     </div>
+       
+     <div class="text">
+          <h2> Jupiter </h2>
+            
+          <p> 
+               Jupiter est la cinquième planète du Système solaire par ordre d'éloignement au Soleil, et la plus grande par la taille et la masse devant Saturne, qui est comme elle une planète géante gazeuse. Elle est même plus volumineuse que toutes les autres planètes réunies.<br>
+               Elle a une composition similaire au Soleil, constituée principalement d'hydrogène mais aussi d'hélium pour un quart de sa masse et un dixième de son volume. Elle possède probablement un noyau rocheux composé d'éléments plus lourds mais, comme les autres planètes géantes, Jupiter n'a pas de surface solide bien définie mais plutôt un vaste manteau d'hydrogène métallique ; de petites quantités de composés tels que l'ammoniac, le méthane et l'eau sont aussi détectables. <br>
+               Elle connaît toujours une contraction continue de son intérieur qui génère une chaleur supérieure à celle reçue du Soleil grâce au mécanisme de Kelvin-Helmholtz. 
+               <br><br>
+               Source :
+               <a href="https://fr.wikipedia.org/wiki/Jupiter_(plan%C3%A8te)" target="_blank"> wikipedia</a>
+          </p>
+               
+          <div class="boite rotation"> 
+               <p>Période de rotation : <br> 
+                    Environ 0.4 jours
+               </p>
+          </div>
+               
+          <div class="boite temperature">
+               <p> Tempèrature de Surface : <br>
+                    Moyenne de -130°C
+               </p>
+          </div>
+              
+          <div class="boite vitesse">
+               <p>Vitesse de rotation : <br>
+                    47 000 km/h
+               </p>
+          </div>
+     </div>
+</div>
+
+<!-- Saturne  -->
+<div class="planete saturne" data-index="5">
+     <div class="img">
+          <img src="saturne.png" alt="saturne">
+     </div>
+
+     <div class="text">
+          <h2> Saturne </h2>
+             
+          <p> 
+               Saturne est la sixième planète du Système solaire par ordre d'éloignement au Soleil, et la deuxième plus grande par la taille et la masse après Jupiter, qui est comme elle une planète géante gazeuse.<br>
+               La caractéristique la plus célèbre de la planète est son système d'anneaux proéminent. Composés principalement de particules de glace et de poussières, ils se seraient formés il y a moins de 100 millions d'années. Saturne est la planète possédant le plus grand nombre de satellites naturels avec 82 confirmés et des centaines de satellites mineurs dans son cortège.<br>
+               L'intérieur de Saturne est très probablement composé d'un noyau rocheux de silicates et de fer entouré de couches constituées en volume à 96 % d'hydrogène qui est successivement métallique puis liquide puis gazeux, mêlé à de l'hélium. Ainsi, elle ne possède pas de surface solide et est la planète ayant la densité moyenne la plus faible. 
+               <br><br>
+               Source :
+               <a href="https://fr.wikipedia.org/wiki/Saturne_(plan%C3%A8te)" target="_blank"> wikipedia</a>
+          </p>  
+               
+          <div class="boite rotation"> 
+               <p>Période de rotation : <br> 
+                    Environ 0.4 jours
+               </p>
+          </div>
+              
+          <div class="boite temperature">
+               <p> Tempèrature de Surface : <br>
+                    Moyenne de -155°C
+               </p>
+          </div>
+               
+          <div class="boite vitesse">
+               <p>Vitesse de rotation : <br>
+                    34 821 km/h
+               </p>
+          </div>
+     </div>
+</div>
+
+<!-- Uranus  -->
+<div class="planete uranus" data-index="6">
+     <div class="img">
+          <img src="uranus.png" alt="uranus">
+     </div>
+
+     <div class="text">
+          <h2> Uranus </h2>
+            
+          <p> 
+               Uranus est la septième planète du Système solaire par ordre d'éloignement au Soleil. Il s'agit de la quatrième planète la plus massive du Système solaire et de la troisième plus grande par la taille.<br>
+               Elle est la première planète découverte à l’époque moderne avec un télescope et non connue depuis l'Antiquité.<br>
+               Comme Jupiter et Saturne, son atmosphère est composée principalement d'hydrogène et d'hélium avec des traces d'hydrocarbures. Cependant, comme Neptune, elle contient une proportion plus élevée de glaces au sens physique, c'est-à-dire de substances volatiles telles que l'eau, tandis que l'intérieur de la planète est principalement composé de glaces et de roches, d'où leur nom de géantes de glaces.<br>
+               À l’instar des autres planètes géantes, Uranus possède un système d’anneaux et de nombreux satellites naturels : on lui connaît 13 anneaux étroits et 27 lunes.  
+               <br><br>
+               Source :
+               <a href="https://fr.wikipedia.org/wiki/Uranus_(plan%C3%A8te)" target="_blank"> wikipedia</a>
+          </p>
+
+          <div class="boite rotation"> 
+               <p>Période de rotation : <br> 
+                    Environ 0.7 jours
+               </p>
+          </div>
+               
+          <div class="boite temperature">
+               <p> Tempèrature de Surface : <br>
+                    Moyenne de -200°C
+               </p>
+          </div>
+               
+          <div class="boite vitesse">
+               <p>Vitesse de rotation : <br>
+                    9 320 km/h
+               </p>
+          </div>
+     </div>
+</div>
+
+<!-- Neptune  -->
+<div class="planete neptune" data-index="7">
+     <div class="img">
+          <img src="neptune.png" alt="neptune">
+     </div>
+
+     <div class="text">
+          <h2> Neptune </h2>
+              
+          <p> 
+               Neptune est la huitième planète par ordre d'éloignement au Soleil et la plus éloignée connue du Système solaire. Il s'agit de la troisième planète la plus massive du Système solaire et de la quatrième plus grande par la taille. Par ailleurs, elle est la planète géante la plus dense.<br>
+               N'étant pas visible à l'œil nu, Neptune est le premier objet céleste et la seule des huit planètes du Système solaire à avoir été découverte par déduction plutôt que par observation empirique. <br>
+               Comme Jupiter et Saturne, l'atmosphère de Neptune est composée principalement d'hydrogène et d'hélium ainsi que de traces d'hydrocarbures et peut-être d'azote, bien qu'elle contienne une proportion plus élevée de glaces au sens astrophysique. Par ailleurs, le méthane est partiellement responsable de la teinte bleue de l'atmosphère de Neptune, bien que l'origine exacte de ce bleu azur reste encore inexpliquée.
+               <br><br>
+               Source :
+               <a href="https://fr.wikipedia.org/wiki/Neptune_(plan%C3%A8te)" target="_blank"> wikipedia</a>
+          </p>
+               
+          <div class="boite rotation"> 
+               <p>Période de rotation : <br> 
+                    Environ 0.6 jours
+               </p>
+          </div>
+               
+          <div class="boite temperature">
+               <p> Tempèrature de Surface : <br>
+                    Moyenne de -210°C
+               </p>
+          </div>
+                    
+          <div class="boite vitesse">
+               <p>Vitesse de rotation : <br>
+                    9 660 km/h
+               </p>
+          </div>
+     </div>
+</div>
+
+<!-- <script src="app.js"></script>      -->
+<script src="script.js"></script>     
+</body>
+</html>
